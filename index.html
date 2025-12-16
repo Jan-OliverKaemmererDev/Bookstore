@@ -6,8 +6,22 @@
     <title>Jan's Bookstore</title>
 
     <script src="./db.js"></script>
+    <script src="./scripts/templates.js"></script>
+    <script src="./script.js"></script>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/standard.css">
+    <link rel="stylesheet" href="./styles/assets.css">
+    <link rel="stylesheet" href="./styles/book.css">
 </head>
-<body>
+<body onload="renderBooks()">
+    <header>
     <h1>Jan's Bookstore</h1>
+    </header>
+    
+    <section>
+        <div class="book_content" id="book_content"></div>
+    </section>
+
 </body>
 </html>
