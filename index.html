@@ -3,25 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jan's Bookstore</title>
-
-    <script src="./db.js"></script>
-    <script src="./scripts/templates.js"></script>
-    <script src="./script.js"></script>
-
+    <title>Bookstore</title>
+    
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./styles/standard.css">
     <link rel="stylesheet" href="./styles/assets.css">
     <link rel="stylesheet" href="./styles/book.css">
+
+    <script src="./db.js"></script>
+    <script src="./scripts/templates.js"></script>
 </head>
-<body onload="renderBooks()">
+<body>
     <header>
-    <h1>Jan's Bookstore</h1>
+    <h1>Bookstore</h1>
     </header>
     
-    <section>
-        <div class="book_content" id="book_content"></div>
-    </section>
+    <main id="book-list">
+    </main>
 
+    <script src="./script.js"></script>
 </body>
 </html>
