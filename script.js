@@ -18,11 +18,8 @@ function renderBooks() {
 
 // Like-Status eines Buches ändern
 function toggleLike(index) {
-    // Status umkehren (true wird false, false wird true)
-    books[index].liked = !books[index].liked;
-
-    // Likes anpassen: Wenn liked true ist +1, sonst -1
-    books[index].likes += books[index].liked ? 1 : -1;
+    books[index].liked = !books[index].liked; // Status umkehren (true wird false, false wird true)
+    books[index].likes += books[index].liked ? 1 : -1; // Likes anpassen: Wenn liked true ist +1, sonst -1
 
     saveToLocalStorage();
     renderBooks();
