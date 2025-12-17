@@ -31,6 +31,27 @@ function toggleLike(index) {
     renderBooks();
 }
 
+// Einen neuen Kommentar hinzufügen
+function addComment(index) {
+    let inputRef = document.getElementById('comment-input-' + index);
+    let commentText = inputRef.ariaValueMax.trim();
+
+    if (commentText === "") {
+        alert("Bitte gib einen Kommentar ein Meister.");
+        return;
+    }
+
+    let newComment = {
+        "name": YOUR_NAME,
+        "comment": commentText
+    };
+
+    books[index].comments.push(newComment);
+
+    saveToLocalStorage();
+    renderBooks();
+}
+
 
 
 renderBooks();
