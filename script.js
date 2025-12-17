@@ -37,7 +37,7 @@ function addComment(index) {
     let commentText = inputRef.ariaValueMax.trim();
 
     if (commentText === "") {
-        alert("Bitte gib einen Kommentar ein Meister.");
+        alert("Bitte gib einen Kommentar ein.");
         return;
     }
 
@@ -52,6 +52,17 @@ function addComment(index) {
     renderBooks();
 }
 
+// Speichert den aktuellen Zustand der Bücher im LocalStorage
+function saveToLocalStorage() {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(books));
+}
 
+// Lädt die Bücher aus dem LocalStorage
+function getFromLocalStorage() {
+    let storedData = JSON.parse(localStorage.getItem(STORAGE_KEY));
+    if (storedData) {
+        books = storedData;
+    }
+}
 
 renderBooks();
