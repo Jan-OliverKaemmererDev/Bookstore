@@ -12,23 +12,31 @@ function createBookElement(book, index) {
             <p><strong>Preis:</strong> ${book.price.toFixed(2)} €</p>
             
             <div class="like-section">
-                <img src="${likeIconURL}" alt="Like" class="like-icon ${book.liked ? 'liked' : ''}" data-index="${index}">
+                <img src="${likeIconURL}" alt="Like" class="like-icon ${book.liked ? 'liked' : ''}" 
+                onclick="toggleLike(${index})">
                 <span class="like-count">${book.likes}</span> Likes
             </div>
 
             <h3>Kommentare:</h3>
             <div class="comments-box" id="comments-${index}">
-                ${book.comments.map(comment => `
-                    <p><strong>${comment.name}:</strong> ${comment.comment}</p>
-                `).join('')}
+                ${renderCommentsTemplate(book.comments)}
             </div>
 
             <div class="comment-input-section">
                 <input type="text" id="comment-input-${index}" placeholder="Dein Kommentar...">
-                <img src="./assets/icons/send.png" alt="Senden" class="send-icon" data-index="${index}">
+                <img src="./assets/icons/send.png" alt="Senden" class="send-icon" 
+                onclick="addComment(${index})">
             </div>
         </div>
     `;
 
     return card;
+}
+
+function renderCommentsTemplate(comments) {
+    let html = '';
+    for (let i = 0; i < comments.length; i++) {
+        html += '<p><strong>' + comments[i].name + ':</strong> ' + comments[i].comment + '</p>';
+    }
+    return html;
 }
