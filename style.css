@@ -1,20 +1,12 @@
 @font-face {
-    font-family: 'Raleway';
-    src: url('./assets/fonts/Raleway/Raleway-VariableFont_wght.ttf') format('truetype');
+    font-family: 'Jersey10';
+    src: url('./assets/fonts/Jersey_10/Jersey10-Regular.ttf') format('truetype');
     font-weight: 100 900;
     font-style: normal;
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'Raleway';
-    src: url('./assets/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
-    font-weight: 100 900;
-    font-style: italic;
-    font-display: swap;
-}
-
 * {
-    font-family: "Raleway", sans-serif;
+    font-family: "Jersey10", sans-serif;
     transition: all 0.2s ease-in-out;
 }

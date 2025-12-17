@@ -10,3 +10,5 @@ function renderBooks() {
         contentRef.innerHTML += getBookTamplate(indexBooks);
     }
 }
+
+renderBooks();
