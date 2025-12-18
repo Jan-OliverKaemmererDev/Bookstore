@@ -1,175 +1,190 @@
 let books = [
     {
-      "name": "Die Geheimnisse des Ozeans",
-      "author": "Clara Meer",
-      "likes": 1250,
+      "name": "Das Grimoire der verlorenen Seelen",
+      "author": "Xal'atath der Verfluchte",
+      "likes": 2450,
       "liked": true,
-      "price": 19.99,
-      "publishedYear": 2018,
-      "genre": "Fantasy",
+      "price": 550.00,
+      "publishedYear": 124,
+      "genre": "Dunkle Magie",
       "comments": [
         {
-          "name": "Leser123",
-          "comment": "Ein faszinierendes Abenteuerbuch, das mich von der ersten Seite an gefesselt hat."
+          "name": "Eldrin_Lichtbringer",
+          "comment": "Dieses Buch sollte versiegelt bleiben. Die Tinte riecht nach Schwefel und Verderben!"
         },
         {
-          "name": "Bookworm84",
-          "comment": "Eine romantische Geschichte, die mein Herz berührt und mich zum Nachdenken gebracht hat."
-        },
-        {
-          "name": "FantasyFanatic",
-          "comment": "Eine spannende Fantasiewelt, die ich nur schwer aus der Hand legen konnte."
-        },
-        {
-          "name": "SciFiGuru",
-          "comment": "Ein cleverer Science-Fiction-Roman mit interessanten Zeitreise-Konzepten und Charakteren."
-        },
-        {
-          "name": "NovelLover",
-          "comment": "Ein Buch, das voller magischer Überraschungen steckt und mich begeistert hat."
+          "name": "Schattenpfote",
+          "comment": "Ziemlich nützlich, um Wachen abzulenken... oder sie in Frösche zu verwandeln."
         }
       ]
     },
     {
-      "name": "Der vergessene Pfad",
-      "author": "Maximilian Schwarz",
-      "likes": 980,
-      "liked": false,
-      "price": 14.50,
-      "publishedYear": 2021,
-      "genre": "Fantasy",
-      "comments": []
-    },
-    {
-      "name": "Die Farben des Himmels",
-      "author": "Laura Blau",
-      "likes": 1520,
-      "liked": true,
-      "price": 22.95,
-      "publishedYear": 2019,
-      "genre": "Romantik",
-      "comments": [
-        {
-          "name": "LeserPeter",
-          "comment": "Die Handlung war fesselnd und die Charaktere unglaublich lebendig dargestellt."
-        },
-        {
-          "name": "BookLover21",
-          "comment": "Ein romantisches Meisterwerk, das mich tief berührt und bewegt hat."
-        },
-        {
-          "name": "FantasyNerd",
-          "comment": "Fantastische Welten und epische Abenteuer - genau mein Geschmack!"
-        },
-        {
-          "name": "SciFiEnthusiast",
-          "comment": "Die Zeitreise-Elemente waren genial und haben die Story spannend gemacht."
-        },
-        {
-          "name": "ReadingAddict",
-          "comment": "Ein unvergessliches Buch, das mich auf eine magische Reise mitgenommen hat."
-        }
-      ]
-    },
-    {
-      "name": "Das Rätsel der Zeit",
-      "author": "Alexander Weiss",
-      "likes": 750,
-      "liked": false,
-      "price": 18.00,
-      "publishedYear": 2020,
-      "genre": "Science-Fiction",
-      "comments": [
-        {
-          "name": "BuchKenner",
-          "comment": "Ein spannendes Abenteuer, das mich von Anfang an mitgerissen hat."
-        },
-        {
-          "name": "LeseWurm",
-          "comment": "Die Liebesgeschichte war herzergreifend und wunderschön geschrieben."
-        }
-      ]
-    },
-    {
-      "name": "Der letzte Wächter",
-      "author": "Sabine Grün",
-      "likes": 1300,
-      "liked": true,
-      "price": 16.75,
-      "publishedYear": 2017,
-      "genre": "Fantasy",
-      "comments": []
-    },
-    {
-      "name": "Im Schatten des Mondes",
-      "author": "Philipp Silber",
+      "name": "Überleben in der Dracheneinöde",
+      "author": "Brog Einauge",
       "likes": 890,
       "liked": false,
-      "price": 12.30,
-      "publishedYear": 2022,
-      "genre": "Science-Fiction",
+      "price": 12.50,
+      "publishedYear": 582,
+      "genre": "Abenteuer-Leitfaden",
       "comments": [
         {
-          "name": "BücherLiebhaber",
-          "comment": "Eine magische Reise durch eine faszinierende Fantasiewelt, absolut fesselnd."
+          "name": "Jung-Paladin",
+          "comment": "Der Teil über das Feuerschutz-Schild hat mir in der letzten Quest das Leben gerettet!"
+        }
+      ]
+    },
+    {
+      "name": "Die Kunst des lautlosen Schritts",
+      "author": "Meisterdieb Garreth",
+      "likes": 3100,
+      "liked": true,
+      "price": 85.00,
+      "publishedYear": 601,
+      "genre": "Handwerk",
+      "comments": [
+        {
+          "name": "Stadtwache_01",
+          "comment": "Ich konfisziere dieses Exemplar. Nur zur... Recherche."
         },
         {
-          "name": "Leseratte",
-          "comment": "Ein packender Science-Fiction-Roman, der mich zum Nachdenken gebracht hat."
+          "name": "Nachtschwärmer",
+          "comment": "Kapitel 4 über Dietriche ist pures Gold wert."
         }
       ]
     },
     {
-      "name": "Jenseits der Sterne",
-      "author": "Oliver Schwarz",
-      "likes": 1450,
+      "name": "Lieder der weinenden Sirene",
+      "author": "Barde Alistair",
+      "likes": 1200,
       "liked": true,
-      "price": 21.00,
-      "publishedYear": 2015,
-      "genre": "Science-Fiction",
+      "price": 25.00,
+      "publishedYear": 595,
+      "genre": "Lyrik",
       "comments": [
         {
-          "name": "Leser123",
-          "comment": "Ein fesselndes Abenteuer, das mich von Anfang bis Ende mitgerissen hat."
+          "name": "TavernenWirt",
+          "comment": "Seit meine Gäste das lesen, fließen mehr Tränen als Bier. Schlecht fürs Geschäft!"
         }
       ]
     },
     {
-      "name": "Das verborgene Königreich",
-      "author": "Elena Gold",
-      "likes": 920,
+      "name": "Trankbrauen für Anfänger",
+      "author": "Zora die Kräuterhexe",
+      "likes": 560,
       "liked": false,
-      "price": 17.50,
-      "publishedYear": 2020,
-      "genre": "Fantasy",
+      "price": 18.99,
+      "publishedYear": 605,
+      "genre": "Alchemie",
       "comments": [
         {
-          "name": "Bookworm92",
-          "comment": "Ein faszinierendes Buch, das mich von der ersten Seite an gefesselt hat."
+          "name": "Lehrling_Grog",
+          "comment": "Anleitung unklar. Mein Kessel ist explodiert und mein Bart ist jetzt blau."
         }
       ]
     },
     {
-      "name": "Liebe in Zeiten des Krieges",
-      "author": "Emilia Rot",
-      "likes": 1800,
+      "name": "Das vergessene Imperium von Azur",
+      "author": "Chronist Valerius",
+      "likes": 1750,
       "liked": true,
-      "price": 19.99,
-      "publishedYear": 2016,
-      "genre": "Romantik",
+      "price": 120.00,
+      "publishedYear": 410,
+      "genre": "Geschichte",
       "comments": [
         {
-          "name": "Bibliophile23",
-          "comment": "Die Fantasiewelt war so lebendig, ich konnte das Buch kaum aus der Hand legen."
-        },
+          "name": "Archäologin_Lara",
+          "comment": "Die Karten im Anhang sind veraltet, aber die Legenden über das fliegende Gold stimmen!"
+        }
+      ]
+    },
+    {
+      "name": "101 Wege einen Goblin zu verspeisen",
+      "author": "Koch-Oger Mampf",
+      "likes": 420,
+      "liked": false,
+      "price": 5.00,
+      "publishedYear": 610,
+      "genre": "Kochbuch",
+      "comments": [
         {
-          "name": "StorySeeker",
-          "comment": "Eine unglaublich berührende Liebesgeschichte, die mich tief bewegt hat."
-        },
+          "name": "Goblin_König",
+          "comment": "0/10 Sternen. Sehr beleidigend und geschmacklos."
+        }
+      ]
+    },
+    {
+      "name": "Der Kodex der Ehre",
+      "author": "Sir Galahad der Standhafte",
+      "likes": 2100,
+      "liked": true,
+      "price": 45.00,
+      "publishedYear": 550,
+      "genre": "Philosophie",
+      "comments": [
         {
-          "name": "SciFiExplorer",
-          "comment": "Spannende Zukunftsvisionen und interessante Charaktere machten diesen Roman einzigartig."
+          "name": "Ritter_Roderick",
+          "comment": "Ein wahres Werk über Tugend. Ich trage es immer unter meinem Harnisch."
+        }
+      ]
+    },
+    {
+      "name": "Bestiarium der Schattenlande",
+      "author": "Waldläufer Fenris",
+      "likes": 1980,
+      "liked": true,
+      "price": 75.50,
+      "publishedYear": 608,
+      "genre": "Naturkunde",
+      "comments": [
+        {
+          "name": "Bestienbändiger",
+          "comment": "Die Illustrationen der Greifen sind absolut lebensecht!"
+        }
+      ]
+    },
+    {
+      "name": "Runen der Alten Götter",
+      "author": "Unbekannt",
+      "likes": 4500,
+      "liked": true,
+      "price": 999.99,
+      "publishedYear": 0,
+      "genre": "Prophezeiung",
+      "comments": [
+        {
+          "name": "Erzmagier_Thalos",
+          "comment": "Ich habe zehn Jahre gebraucht, um nur die erste Seite zu entziffern. Faszinierend."
+        }
+      ]
+    },
+    {
+      "name": "Schwerter schmieden mit Drachenfeuer",
+      "author": "Thorin Eisenfuß",
+      "likes": 1340,
+      "liked": false,
+      "price": 60.00,
+      "publishedYear": 589,
+      "genre": "Schmiedekunst",
+      "comments": [
+        {
+          "name": "Söldner_Ulf",
+          "comment": "Meine Klinge ist jetzt schärfer als der Verstand meines Hauptmanns."
+        }
+      ]
+    },
+    {
+      "name": "Die Legende vom Einhorn-Prinz",
+      "author": "Prinzessin Aurora",
+      "likes": 900,
+      "liked": true,
+      "price": 15.00,
+      "publishedYear": 612,
+      "genre": "Märchen",
+      "comments": [
+        {
+          "name": "Barbar_Conan",
+          "comment": "Zu viel Glitzer, zu wenig Äxte. Aber das Papier brennt gut im Lagerfeuer."
         }
       ]
     }
-  ]
+  ];

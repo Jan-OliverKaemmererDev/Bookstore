@@ -9,7 +9,7 @@ function createBookElement(book, index) {
             <p><strong>Autor:</strong> ${book.author}</p>
             <p><strong>Genre:</strong> ${book.genre}</p>
             <p><strong>Veröffentlicht:</strong> ${book.publishedYear}</p>
-            <p><strong>Preis:</strong> ${book.price.toFixed(2)} €</p>
+            <p><strong>Preis:</strong> ${book.price.toFixed(2)} Gold</p>
             
             <div class="like-section">
                 <img src="${likeIconURL}" alt="Like" class="like-icon ${book.liked ? 'liked' : ''}" 
