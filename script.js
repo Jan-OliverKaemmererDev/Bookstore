@@ -28,7 +28,7 @@ function toggleLike(index) {
 // Einen neuen Kommentar hinzufügen
 function addComment(index) {
     let inputRef = document.getElementById('comment-input-' + index);
-    let commentText = inputRef.ariaValueMax.trim();
+    let commentText = inputRef.value.trim();
 
     if (commentText === "") {
         alert("Bitte gib einen Kommentar ein.");
