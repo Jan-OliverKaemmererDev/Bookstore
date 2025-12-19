@@ -101,3 +101,23 @@ input[type="text"] {
 input[type="text"]:focus {
     border-color: #ffcc80;
 }
+
+@media (max-width: 600px) {
+    #book-list {
+        gap: 15px;
+    }
+
+    .book-card {
+        width: 75%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .book-info h2 {
+        font-size: 1.4rem;
+    }
+
+    .comments-box {
+        height: 100px;
+    }
+}
